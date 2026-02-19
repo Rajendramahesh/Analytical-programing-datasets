@@ -1,0 +1,70 @@
+{
+  "eventGroups": [
+    {
+      "id": "group-1",
+      "label": "EventGroup",
+      "properties": {
+        "groupName": "Startup Connect",
+        "vision": "Connect startups with investors and mentors",
+        "avgAttendeesPerEvent": 250,
+        "eventsPerYear": 12,
+        "digitalReachRange": "50k-100k",
+        "emailSubs": 8000
+      },
+      "relationships": [
+        {
+          "type": "TARGETS_INDUSTRY",
+          "to": "industry-startups"
+        },
+        {
+          "type": "HAS_FREQUENCY",
+          "to": "freq-monthly"
+        },
+        {
+          "type": "RUNS_TYPE",
+          "to": "etype-meetup"
+        },
+        {
+          "type": "FOCUSES_ON_THEME",
+          "to": "theme-networking"
+        }
+      ]
+    }
+  ],
+  "industries": [
+    {
+      "id": "industry-startups",
+      "label": "Industry",
+      "properties": {
+        "name": "Startups"
+      }
+    }
+  ],
+  "frequencies": [
+    {
+      "id": "freq-monthly",
+      "label": "EventFrequency",
+      "properties": {
+        "name": "Monthly"
+      }
+    }
+  ],
+  "eventTypes": [
+    {
+      "id": "etype-meetup",
+      "label": "EventType",
+      "properties": {
+        "name": "Meetup"
+      }
+    }
+  ],
+  "eventThemes": [
+    {
+      "id": "theme-networking",
+      "label": "EventTheme",
+      "properties": {
+        "name": "Networking"
+      }
+    }
+  ]
+}
